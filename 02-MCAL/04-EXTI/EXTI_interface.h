@@ -12,7 +12,23 @@ void MEXTI_VoidSetSignalLatch(u8 Copy_u8EXTILine , u8 Copy_u8EXTISenseMode);
 void MEXTI_VoidEnableEXTI(u8 Copy_u8EXTILine);
 void MEXTI_VoidDisableEXTI(u8 Copy_u8EXTILine);
 void MEXTI_VoidSoftwareTrigger(u8 Copy_u8EXTILine);
-void MEXTI_VoidSetCallBack(void (*prt) (void));
+
+void MEXTI0_VoidSetCallBack (void (*ptr) (void));
+void MEXTI1_VoidSetCallBack (void (*ptr) (void));
+void MEXTI2_VoidSetCallBack (void (*ptr) (void));
+void MEXTI3_VoidSetCallBack (void (*ptr) (void));
+void MEXTI4_VoidSetCallBack (void (*ptr) (void));
+void MEXTI5_VoidSetCallBack (void (*ptr) (void));
+void MEXTI6_VoidSetCallBack (void (*ptr) (void));
+void MEXTI7_VoidSetCallBack (void (*ptr) (void));
+void MEXTI8_VoidSetCallBack (void (*ptr) (void));
+void MEXTI9_VoidSetCallBack (void (*ptr) (void));
+void MEXTI10_VoidSetCallBack(void (*ptr) (void));
+void MEXTI11_VoidSetCallBack(void (*ptr) (void));
+void MEXTI12_VoidSetCallBack(void (*ptr) (void));
+void MEXTI13_VoidSetCallBack(void (*ptr) (void));
+void MEXTI14_VoidSetCallBack(void (*ptr) (void));
+void MEXTI15_VoidSetCallBack(void (*ptr) (void));
 
 
 #define EXTI_LINE_0   0

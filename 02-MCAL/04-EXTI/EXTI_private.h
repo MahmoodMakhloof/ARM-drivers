@@ -21,6 +21,9 @@ typedef struct
 
 #define EXTI  ((volatile EXTI_TYPE *) 0x40010400)
 
-static void (* EXTI_CallBack[16]) (void)  = NULL;
+#define NULL		(void*) 0
+
+
+
 
 #endif /* EXTI_PRIVATE_H */
